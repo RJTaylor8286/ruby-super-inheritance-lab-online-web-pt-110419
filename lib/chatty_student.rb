@@ -5,3 +5,4 @@ class ChattyStudent < Student
     @hello = true
   end
 end
+
