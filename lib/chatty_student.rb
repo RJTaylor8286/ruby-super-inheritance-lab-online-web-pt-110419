@@ -9,7 +9,11 @@ end
 
   def raise_hand
     @raise_hand = "Pick me!"
-    super(10)
+    super
     
   end
+  
+  ChattyStudent.hello
+  ChattyStudent.raise_hand(10)
+  
   
